@@ -1,0 +1,30 @@
+#review-form {
+    border: 0;
+    text-align: center;
+    outline: 0;
+}
+
+textarea {
+    border: 0;
+    outline: 0;
+    font-family: "Dela Gothic One";
+}
+
+#send {
+    padding: 2% 4% 2% 4%;
+    margin-top: 1vw;
+    background: #DDF3F7;
+    border: 1px solid gray;
+    font-family: 'Dela Gothic One';
+    font-size: 1vw;
+    border-radius: 8px;
+}
+
+#send:disabled {
+    background: gray;
+    color: rgb(94, 94, 94);
+}
+
+#send:active {
+    border: 1px double black;
+}

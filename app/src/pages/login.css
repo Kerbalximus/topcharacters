@@ -1,0 +1,29 @@
+.login {
+    margin-top: 10px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    padding-right: 20%;
+    padding-left: 10%;
+    border: 1px solid gray;
+    border-radius: 8px;
+
+}
+
+#login {
+    padding: 6% 4% 6% 4%;
+    margin-top: 3vw;
+    background: #DDF3F7;
+    border: 1px solid gray;
+    font-family: 'Dela Gothic One';
+    font-size: 1.5vw;
+    border-radius: 8px;
+}
+
+#login:disabled {
+    background: gray;
+    color: rgb(94, 94, 94);
+}
+
+#login:active {
+    border: 1px double black;
+}

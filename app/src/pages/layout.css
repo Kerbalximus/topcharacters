@@ -1,0 +1,45 @@
+#inline {
+    display: inline;
+    width: auto;
+    height: auto;
+    text-align: center;
+    margin: 10px 5px;
+    font-size: 2.5vw;
+    
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+ul {
+    width: 100%;
+    list-style: none;
+    /* text-align: center; */
+
+    display: flex;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+nav {
+    margin-top: "10%";
+}
