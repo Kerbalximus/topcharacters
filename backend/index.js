@@ -3,7 +3,6 @@ const sqlite = require('sqlite3')
 const cors = require('cors')
 const bodyParser = require('body-parser')
 var crypto = require('crypto')
-const { table } = require("console")
 
 const app = express();
 const port = 4000
